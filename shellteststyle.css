@@ -1,0 +1,1391 @@
+body{
+	background-color:BlanchedAlmond;
+}
+
+.card {
+	height: 400px;
+	width: 300px;
+	background-color: gold;
+	border-radius: 10px;
+	float:right;
+	margin-right: 50px;
+	margin-top:30px;
+}
+
+.cardbg{
+	height: 370px;
+	width: 270px;
+	background-image: radial-gradient(circle, orchid, plum, lavender, violet, mediumpurple);
+	position: relative;
+	left: 15px;
+	top:15px;
+	border-radius: 10px;
+}
+
+
+.pokebg{
+	height: 150px;
+	width: 200px;
+	background-color: palegoldenrod;
+	position: relative;
+	left:40px;
+	top:-290px;
+	border-style: solid;
+	border-color: goldenrod;
+	border-width:10px;
+}
+
+
+
+
+.moon1{
+	width:40px;
+	height:0px;
+	border-top: 60px solid transparent;
+	border-bottom: 60px solid transparent;
+	border-right:60px solid black;
+	position: relative;
+	left: 7px;
+	top: -503px;
+	transform: rotate(45deg);
+}
+
+.moon2{
+	width: 40px;
+	height:0px;
+	border-top: 60px solid transparent;
+	border-bottom: 60px solid transparent;
+	border-left: 60px solid black;
+	position: relative;
+	left: 193px;
+	top:-623px;
+	transform:rotate(-45deg);
+}
+
+.moon3{
+	width: 0px;
+	height: 20px;
+	border-top: 20px solid black;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	position: relative;
+	left:30px;
+	top: -560px;
+	transform: rotate(45deg);
+}
+
+.moon4{
+	width: 0px;
+	height: 20px;
+	border-top: 20px solid black;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	position: relative;
+	left:230px;
+	top: -600px;
+	transform: rotate(-45deg);
+}
+
+.moonround1{
+	width:125px;
+	height:50px;
+	background: palegoldenrod;
+	border-radius:50%;
+	transform: rotate(-45deg);
+	position: relative;
+	top:-747px;
+	left: 35px;
+}
+
+.moonround2{
+	width:125px;
+	height:50px;
+	background: palegoldenrod;
+	border-radius:50%;
+	transform: rotate(45deg);
+	position: relative;
+	top:-797px;
+	left: 140px;
+}
+
+.moonround3{
+	width:25px;
+	height:50px;
+	background: palegoldenrod;
+	border-radius:50%;
+	transform: rotate(-45deg);
+	position: relative;
+	top:-765px;
+	left: 57px;
+}
+
+.moonround4{
+	width:25px;
+	height:50px;
+	background: palegoldenrod;
+	border-radius:50%;
+	transform: rotate(45deg);
+	position: relative;
+	top:-815px;
+	left: 218px;
+}
+
+.gargarbody{
+	height:60px;
+	width:90px;
+	background-color:rebeccapurple;
+	position:relative;
+	top:-880px;
+	left: 105px;
+}
+
+
+.gargarlarm{
+	width:0px;
+	height:40px;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-top: 40px solid rebeccapurple;
+	border-bottom: 40px solid transparent;
+	transform: rotate(180deg) scaleY(1.9);
+	position: relative;
+	top: -1054px;
+	left: 70px;
+}
+
+.gargarlarm2{
+	width:15px;
+	height:80px;
+	background: rebeccapurple;
+	border-radius:50%;
+	transform: rotate(32deg);
+	position: relative;
+	top: -1075px;
+	left: 85px;
+}
+
+.gargarrarm{
+	width:0px;
+	height:40px;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-top: 40px solid rebeccapurple;
+	border-bottom: 40px solid transparent;
+	transform: rotate(-180deg) scaleY(1.9);
+	position: relative;
+	top: -1254px;
+	left: 150px;
+}
+
+.gargarrarm2{
+	width:15px;
+	height:80px;
+	background: rebeccapurple;
+	border-radius:50%;
+	transform: rotate(-32deg);
+	position: relative;
+	top: -1275px;
+	left: 200px;
+}
+
+.headmain{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background: rebeccapurple;
+	position: relative;
+	top: -1400px;
+	left: 105px;
+}
+
+.earl{
+	border-left: 30px solid rebeccapurple;
+	border-right: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	border-top: 30px solid transparent;
+	position: relative;
+	top: -1550px;
+	left: 195px;
+	transform: rotate(-10deg) scaleY(1.2) scaleX(1.7);
+}
+
+.earr{
+	width:40px;
+	height:40px;
+	background:rebeccapurple;
+	clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	position: relative;
+	top: -1560px;
+	left: 175px;
+	transform: rotate(47deg) scaleY(1.8) scaleX(1.5);	
+}
+
+.leftptop{
+	width: 20px;
+	height: 20px;
+	clip-path: polygon(50% 0%, 0% 80%, 100% 100%);
+	background:rebeccapurple;
+	position: relative;
+	top: -1545px;
+	left: 94px;
+	transform: rotate(-200deg) scaleY(2) scaleX(2);
+}
+
+.leftpbot{
+	width: 20px;
+	height: 20px;
+	clip-path: polygon(50% 0%, 0% 80%, 100% 100%);
+	background:rebeccapurple;
+	position: relative;
+	top: -1555px;
+	left: 90px;
+	transform: rotate(-220deg) scaleY(1.2) scaleX(1.2);	
+}
+
+.topspikeleft{
+	width: 20px;
+	height: 20px;
+	clip-path: polygon(50% 0%, 0% 80%, 100% 100%);
+	background:rebeccapurple;
+	position: relative;
+	top: -1645px;
+	left: 132px;
+	transform: rotate(1deg) scaleY(1.1) scaleX(0.8);		
+}
+
+.topspikemid{
+	width: 20px;
+	height: 20px;
+	clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	background:rebeccapurple;
+	position: relative;
+	top: -1665px;
+	left: 145px;
+	transform: rotate(10deg) scaleY(2) scaleX(2);	
+}
+
+.topspikerit{
+	width: 20px;
+	height: 20px;
+	clip-path: polygon(50% 0%, 0% 80%, 100% 100%);
+	background:rebeccapurple;
+	position: relative;
+	top: -1676px;
+	left: 160px;
+	transform: rotate(50deg) scaleY(1.1) scaleX(0.6);	
+}
+
+.rightptop{
+	width: 20px;
+	height: 20px;
+	clip-path: polygon(50% 0%, 0% 80%, 100% 100%);
+	background:rebeccapurple;
+	position: relative;
+	top: -1650px;
+	left: 180px;
+	transform: rotate(-70deg) scaleY(2) scaleX(2);	
+}
+
+.rightpbot{
+	width: 20px;
+	height: 20px;
+	clip-path: polygon(50% 0%, 0% 80%, 100% 100%);
+	background:rebeccapurple;
+	position: relative;
+	top: -1660px;
+	left: 195px;
+	transform: rotate(45deg) scaleY(.9) scaleX(.6);		
+}
+
+.ribbon{
+	height: 10px;
+	width: 195px;
+	background: linear-gradient(to right, goldenrod, gold, goldenrod);
+	position: relative;
+	top: -1595px;
+	left:50px;	
+}
+
+.topleft{
+	height:30px;
+	width:30px;
+	border-radius: 50%;
+	background: linear-gradient(to bottom left, goldenrod, gold, goldenrod);
+	position: relative;
+	top: -1800px;
+	left:40px;
+	transform: scaleY(2.1) scaleX(2.1);
+	z-index:3;
+	
+}
+
+#uppertxt{
+	font-family: "Lucida Console", monospace;
+}
+
+.evolves{
+	position:relative;
+	top: -1856px;
+	left:45px;
+	font-size:4px;
+	font-style: italic;
+	font-weight: bold;
+	transform: scaleY(1.2);
+	opacity: 0%;
+}
+
+.put{
+	position:relative;
+	top: -1864px;
+	left:150px;
+	font-size:4px;
+	font-style: italic;
+	font-weight: bold;
+	transform: scaleY(1.2);	
+	opacity: 0%;
+}
+
+
+.pokename{
+	position:relative;
+	top:-1860px;
+	left:71px;
+	font-size:14px;
+	font-weight: bolder;
+	transform: scaleY(1.6) scaleX(.9);
+	letter-spacing: -0.7px;
+	z-index: 10;
+	}
+
+.pokehealth{
+	position: relative;
+	top:-1887px;
+	left: 190px;
+	font-size: 14px;
+	font-weight: bolder;
+	transform: scaleY(1.6) scaleX(0.9);
+	color:red;
+}
+
+.lefteye{
+	width: 20rem;
+	height: 10rem;
+	background-color:transparent;
+	border-radius: 10rem 10rem 0 0;
+	transform:rotate(220deg) scaleY(0.1) scaleX(0.12);
+	position: relative;
+	top: -1870px;
+	left: -35px;
+}
+
+.lefteye2{
+	height: 30px;
+	width: 30px;
+	clip-path: polygon(0 12%, 13% 80%, 97% 96%);
+	background:transparent;
+	position: relative;
+	top: -1800px;
+	left: -50px;
+	border-radius: 10px;
+	transform: scaleY(1.2) scaleX(1.2);
+}
+
+.lefteye3{
+	height: 50px;
+	width: 30px;
+	border-radius: 35%;
+	background: red;
+	position: relative;
+	top: -2020px;
+	left: 115px;	
+}
+
+.leyebrow{
+	height: 40px;
+	width: 59px;
+	background: rebeccapurple;
+	position: relative;
+	top: -2072px;
+	left: 112px;
+	transform: rotate(55deg);
+}
+
+.righteye{
+	height: 30px;
+	width: 30px;
+	border-radius: 35%;
+	position:relative;
+	top: -2090px;
+	left: 155px;
+	background: red;
+}
+
+.reyebrow{
+	height: 40px;
+	width: 40px;
+	background: rebeccapurple;
+	position: relative;
+	top: -2135px;
+	left: 140px;
+	transform: rotate(45deg);	
+}
+
+.mouth{
+	height: 25px;
+	width: 60px;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 40%;
+	background: #E2E0E0;
+	position: relative;
+	top: -2125px;
+	left: 117px;
+	z-index: 2;
+}
+
+.lip{
+	height: 15px;
+	width: 65px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 15px;
+	background: rebeccapurple;
+	position: relative;
+	top: -2153px;
+	left: 116px;
+	z-index: 5;
+}
+
+.eyebrow1{
+	height: 1px;
+	width: 43px;
+	background: indigo;
+	position: relative;
+	top: -2190px;
+	left: 105px;
+	transform: rotate(55deg);
+}
+
+.eyebrow2{
+	height: 1px;
+	width: 35px; 
+	background: indigo;
+	position: relative;
+	top: -2183px;
+	left: 157px;
+	transform: rotate(-45deg);
+}
+
+.pupil1{
+	height: 7px;
+	width: 2px;
+	border-radius:50%;
+	background: indigo;
+	position: relative;
+	top: -2185px;
+	left: 130px;
+}
+
+.pupil2{
+	height: 5px;
+	width: 2px;
+	border-radius:50%;
+	background: indigo;
+	position: relative;
+	top: -2187px;
+	left: 169px;	
+}
+
+.move1{
+	font-weight: bold;
+	font-size:15px;
+	position: relative;
+	top: -2126px;
+	left: 58px;
+	letter-spacing: -0.5px;
+}
+
+.desc1{
+	font-size: 8px;
+	position: relative;
+	top: -2148px;
+	left: 139px;
+	letter-spacing: -0.3px; 
+}
+
+.desc11{
+	font-size: 8px;
+	position: relative;
+	top: -2155px;
+	left: 57px;
+	letter-spacing: -0.3px;
+}
+
+.desc111{
+	font-size: 8px;
+	position: relative;
+	top: -2162px;
+	left: 57px;
+	letter-spacing: -0.3px;
+}
+
+.divider1{
+	height: 2px;
+	width: 245px;
+	background: black;
+	position: relative;
+	top: -2169px;
+	left: 25px;
+}
+
+.move2{
+	font-weight: bold;
+	font-size:15px;
+	position: relative;
+	top: -2179px;
+	left: 57px;
+	letter-spacing: -0.5px;	
+}
+
+.desc2{
+	font-size: 8px;
+	position: relative;
+	top: -2203px;
+	left: 159px;
+	letter-spacing: -0.3px; 	
+}
+
+.desc22{
+	font-size: 8px;
+	position: relative;
+	top: -2209px;
+	left: 57px;
+	letter-spacing: -0.3px; 	
+}
+
+.desc222{
+	font-size: 8px;
+	position: relative;
+	top: -2216px;
+	left: 57px;
+	letter-spacing: -0.3px; 	
+}
+
+.divider2{
+	height: 2px;
+	width: 245px;
+	background: black;
+	position: relative;
+	top: -2219px;
+	left: 25px;
+}
+
+.weakness{
+	font-weight: bold;
+	font-size: 7px;
+	letter-spacing: -0,2;
+	position: relative;
+	top: -2225px;
+	left: 28px;
+}
+
+.resistance{
+	font-weight: bold;
+	font-size: 7px;
+	letter-spacing: -0,2;
+	position: relative;
+	top: -2239px;
+	left: 100px;	
+}
+
+.resimg{
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: indianred;
+	position: relative;
+	top: -2253px;
+	left: 152px;
+}
+
+.resnum{
+	font-size: 7px;
+	font-weight: bolder;
+	letter-spacing: -0.2;
+	position: relative;
+	top: -2266px;
+	left: 163px;
+}
+
+.divider3{
+	height: 1px;
+	width: 175px;
+	position: relative;
+	top: -2274px;
+	left: 25px;
+	background: black;
+}
+
+.retreatcost{
+	font-weight: bold;
+	font-size: 7px;
+	letter-spacing: -0,2;
+	position: relative;
+	top: -2280px;
+	left: 27px;	
+}
+
+.retreatimg{
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: radial-gradient(circle, whitesmoke, silver);
+	position: relative;
+	top: -2294px;
+	left: 140px;	
+}
+
+.retreatimg2{
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: radial-gradient(circle, whitesmoke, silver);
+	position: relative;
+	top: -2301px;
+	left: 150px;	
+}
+
+.divider4{
+	height: 1px;
+	width: 175px;
+	position: relative;
+	top: -2301px;
+	left: 25px;
+	background: black;	
+}
+
+.lvl{
+	font-size: 7px;
+	font-style: italic;
+	font-weight: bold;
+	position:relative;
+	top: -2305px;
+	left: 30px;
+}
+
+.ills{
+	font-size: 5px;
+	position: relative;
+	top: -2300px;
+	left: 25px;
+	letter-spacing: -1px;
+}
+
+.cpywrt{
+	font-size: 5px;
+	position: relative;
+	top: -2310px;
+	left:85px;
+	letter-spacing: -1px;
+}
+
+.num{
+	font-size: 5px;
+	position: relative;
+	top: -2322px;
+	left: 250px;
+	letter-spacing: -1px;
+}
+
+.divider5{
+	height: 2px;
+	width: 215px;
+	background: goldenrod;
+	position: relative;
+	top: -2660px;
+	left: 50px;
+}
+
+.psychic{
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	position: relative;
+	top: -2655px;
+	left: 252px;
+	background: mediumorchid;
+	transform: scaleY(2) scaleX(2);
+}
+
+.shauntertext{
+	font-size: 7px;
+	font-style: italic;
+	position: relative;
+	top: -2700px;
+	left: 25px;
+	letter-spacing: -0.8px; 
+	word-spacing: -0.8px;
+}
+
+.stage{
+	font-size: 7px;
+	font-style:italic;
+	position: relative;
+	top: -2714px;
+	left: 145px;
+	letter-spacing: -0.8px;
+	word-spacing: -0.8px;
+}
+
+.haunterzone{
+	height: 30px;
+	width: 50px;
+	background: linear-gradient(to right, slategray, dimgray, slategray);
+	position: relative;
+	top: -2698px;
+	left: 30px;
+	z-index: 4;
+}
+
+.medalT{
+	height: 20px;
+	width: 20px;
+	clip-path: polygon(51% 18%, 61% 35%, 71% 28%, 68% 57%, 61% 58%, 51% 58%, 41% 58%, 33% 57%, 29% 27%, 39% 35%);
+	background:peru;
+	position: relative;
+	top: -2750px;
+	left: 45px;
+	transform: scaleY(2) scaleX(3);
+	z-index: 1;
+}
+
+.medalR{
+	height: 20px;
+	width: 20px;
+	clip-path: polygon(51% 18%, 61% 35%, 71% 28%, 68% 57%, 61% 58%, 51% 58%, 41% 58%, 33% 57%, 29% 27%, 39% 35%);
+	background:peru;
+	position: relative;
+	top: -2742px;
+	left: 72px;
+	transform: rotate(90deg) scaleY(2) scaleX(3);
+	z-index: 1;
+}
+
+.medalB{
+	height: 20px;
+	width: 20px;
+	clip-path: polygon(51% 18%, 61% 35%, 71% 28%, 68% 57%, 61% 58%, 51% 58%, 41% 58%, 33% 57%, 29% 27%, 39% 35%);
+	background:peru;
+	position: relative;
+	top: -2756px;
+	left: 45px;
+	transform: rotate(180deg) scaleY(2) scaleX(3);
+	z-index: 1;
+}
+
+.medalL{
+	height: 20px;
+	width: 20px;
+	clip-path: polygon(51% 18%, 61% 35%, 71% 28%, 68% 57%, 61% 58%, 51% 58%, 41% 58%, 33% 57%, 29% 27%, 39% 35%);
+	background:peru;
+	position: relative;
+	top: -2762px;
+	left: 18px;
+	transform: rotate(270deg) scaleY(2) scaleX(3);
+	z-index: 1;	
+}
+
+.psytop{
+	
+}
+
+.teeth1{
+	height: 12px;
+	width: 0.75px;
+	background: black;
+	position: relative;
+	top: -2657px;
+	left: 125px;
+	z-index:5;
+}
+
+.teeth2{
+	height: 12px;
+	width: 0.75px;
+	background: black;
+	position: relative;
+	top: -2667px;
+	left: 134px;
+	z-index:5;	
+}
+
+.teeth3{
+	height: 13px;
+	width: 0.75px;
+	background: black;
+	position: relative;
+	top: -2680px;
+	left: 164px;
+	z-index:5;
+}
+
+.teeth4{
+	height: 9px;
+	width: 0.75px;
+	background: black;
+	position: relative;
+	top: -2693px;
+	left: 174px;	
+	z-index:5;
+}
+
+.teethborder{
+	height: 24px;
+	width: 60px;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 40%;
+	background: black;
+	position: relative;
+	top: -2712px;
+	left: 117px;
+	z-index: 1;
+	transform: scaleY(1.01) scaleX(1.03);
+}
+
+.teethshadow{
+	height: 16px;
+	width: 58px;
+	border-radius: 35%;
+	background: gray;
+	position: relative;
+	top: -2739px;
+	left: 120px;
+	z-index:3;
+	transform: rotate(4deg);
+}
+
+.dimple{
+	height: 10px;
+	width: 5px;
+	clip-path: polygon(50% 0%, 100% 38%, 57% 19%, 43% 19%, 0% 38%);
+	background: indigo;
+	position: relative;
+	top: -2759px;
+	left: 113px;
+	transform: rotate(-35deg);
+}
+
+.dimple2{
+	height: 10px;
+	width: 5px;
+	clip-path: polygon(50% 0%, 100% 38%, 57% 19%, 43% 19%, 0% 38%);
+	background: indigo;
+	position: relative;
+	top: -2759px;
+	left: 177px;
+	transform: rotate(35deg);	
+}
+
+.psychic2{
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	position: relative;
+	top: -2700px;
+	left: 25px;
+	background: mediumorchid;
+}
+
+.psychic3{
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	position: relative;
+	top: -2712px;
+	left: 40px;
+	background: mediumorchid;	
+}
+
+.psychic4{
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	position: relative;
+	top: -2690px;
+	left: 40px;
+	background: mediumorchid;	
+}
+
+.psychic5{
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	position: relative;
+	top: -2702px;
+	left: 25px;
+	background: mediumorchid;
+}
+
+.psychic6{
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	position: relative;
+	top: -2702px;
+	left: 32px;
+	background: mediumorchid;
+}
+
+.edition{
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	position: relative;
+	top: -2780px;
+	left: 32px;
+	background: black;
+}
+
+.ribbontxt{
+	font-size:7px;
+	font-style: italic;
+	font-weight: bold;
+	position: relative;
+	top: -2794px;
+	left: 57px;
+	word-spacing: -1px;
+	letter-spacing: -0.5px;
+}
+
+.move1dmg{
+	font-size:20px;
+	position: relative;
+	top: -2805px;
+	left: 240px;
+}
+
+.move2dmg{
+	font-size:20px;
+	position: relative;
+	top: -2805px;
+	left: 240px;	
+}
+
+.retreatstar1{
+	transform: scaleY(0.5) scaleX(0.5);
+	position: relative;
+	top: -2815.5px;
+	left: 74.5px;
+}
+
+.retreatstar2{
+	transform: scaleY(0.5) scaleX(0.5);
+	position: relative;
+	top: -2853px;
+	left: 64.5px;
+}
+
+.eyetest1{
+	height: 25px;
+	width: 20px;
+	clip-path: polygon(52% 4%, 68% 13%, 76% 34%, 74% 69%, 66% 88%, 50% 97%, 36% 88%, 26% 66%, 26% 33%, 35% 13%);
+	background: black;
+	position: relative;
+	top: -3181px;
+	left: 247px;
+	transform: rotate(90deg) scaleY(0.8) scaleX(0.8);
+}
+
+.eyetest2{
+	height: 25px;
+	width: 20px;
+	clip-path: polygon(52% 4%, 68% 13%, 76% 34%, 74% 69%, 66% 88%, 50% 97%, 36% 88%, 26% 66%, 26% 33%, 35% 13%);
+	background: mediumorchid;
+	position: relative;
+	top: -3206px;
+	left: 247px;
+	transform: rotate(90deg) scaleY(0.6) scaleX(0.6);
+}
+
+.eyetest3{
+	height: 6px;
+	width: 6px;
+	background: black;
+	position: relative;
+	top: -3222px;
+	left: 254px;
+	border-radius: 50%;
+}
+
+.eyetest4{
+	height: 3px;
+	width: 3px;
+	border-radius: 50%;
+	background: mediumorchid;
+	position: relative;
+	top: -3225.5px;
+	left: 255.5px;
+}
+
+.eyetest5{
+	height: 3px;
+	width: 3px;
+	border-radius: 50%;
+	background: black;
+	position: relative;
+	top: -3229.5px;
+	left: 255px;
+}
+
+.dweye1-1{
+	height: 25px;
+	width: 20px;
+	clip-path: polygon(52% 4%, 68% 13%, 76% 34%, 74% 69%, 66% 88%, 50% 97%, 36% 88%, 26% 66%, 26% 33%, 35% 13%);
+	background: black;
+	position: relative;
+	top: -3027px;
+	left: 21px;
+	transform: rotate(90deg) scaleY(0.5) scaleX(0.5);	
+}
+
+.dweye1-2{
+	height: 25px;
+	width: 20px;
+	clip-path: polygon(52% 4%, 68% 13%, 76% 34%, 74% 69%, 66% 88%, 50% 97%, 36% 88%, 26% 66%, 26% 33%, 35% 13%);
+	background: mediumorchid;
+	position: relative;
+	top: -3052px;
+	left: 21px;
+	transform: rotate(90deg) scaleY(0.4) scaleX(0.4);
+}
+
+.dweye1-3{
+	height: 4px;
+	width: 4px;
+	background: black;
+	position: relative;
+	top: -3066px;
+	left: 29px;
+	border-radius: 50%;
+}
+
+.dweye1-4{
+	height: 2px;
+	width: 2px;
+	border-radius: 50%;
+	background: mediumorchid;
+	position: relative;
+	top: -3069px;
+	left: 30.5px;
+}
+
+.dweye1-5{
+	height: 2px;
+	width: 2px;
+	border-radius: 50%;
+	background: black;
+	position: relative;
+	top: -3071.5px;
+	left: 30px;
+}
+
+.dweye2-1{
+	height: 25px;
+	width: 20px;
+	clip-path: polygon(52% 4%, 68% 13%, 76% 34%, 74% 69%, 66% 88%, 50% 97%, 36% 88%, 26% 66%, 26% 33%, 35% 13%);
+	background: black;
+	position: relative;
+	top: -3085px;
+	left: 36px;
+	transform: rotate(90deg) scaleY(0.5) scaleX(0.5);	
+}
+
+.dweye2-2{
+	height: 25px;
+	width: 20px;
+	clip-path: polygon(52% 4%, 68% 13%, 76% 34%, 74% 69%, 66% 88%, 50% 97%, 36% 88%, 26% 66%, 26% 33%, 35% 13%);
+	background: mediumorchid;
+	position: relative;
+	top: -3110px;
+	left: 36px;
+	transform: rotate(90deg) scaleY(0.4) scaleX(0.4);	
+}
+
+.dweye2-3{
+	height: 4px;
+	width: 4px;
+	background: black;
+	position: relative;
+	top: -3124px;
+	left: 44px;
+	border-radius: 50%;	
+}
+
+.dweye2-4{
+	height: 2px;
+	width: 2px;
+	border-radius: 50%;
+	background: mediumorchid;
+	position: relative;
+	top: -3127px;
+	left: 45px;	
+}
+
+.dweye2-5{
+	height: 2px;
+	width: 2px;
+	border-radius: 50%;
+	background: black;
+	position: relative;
+	top: -3129.5px;
+	left: 44.5px;	
+}
+
+.sbeye1-1{
+	height: 25px;
+	width: 20px;
+	clip-path: polygon(52% 4%, 68% 13%, 76% 34%, 74% 69%, 66% 88%, 50% 97%, 36% 88%, 26% 66%, 26% 33%, 35% 13%);
+	background: black;
+	position: relative;
+	top: -3109px;
+	left: 21px;
+	transform: rotate(90deg) scaleY(0.5) scaleX(0.5);	
+}
+
+.sbeye1-2{
+	height: 25px;
+	width: 20px;
+	clip-path: polygon(52% 4%, 68% 13%, 76% 34%, 74% 69%, 66% 88%, 50% 97%, 36% 88%, 26% 66%, 26% 33%, 35% 13%);
+	background: mediumorchid;
+	position: relative;
+	top: -3134px;
+	left: 21px;
+	transform: rotate(90deg) scaleY(0.4) scaleX(0.4);	
+}
+
+.sbeye1-3{
+	height: 4px;
+	width: 4px;
+	background: black;
+	position: relative;
+	top: -3148px;
+	left: 29px;
+	border-radius: 50%;		
+}
+
+.sbeye1-4{
+	height: 2px;
+	width: 2px;
+	border-radius: 50%;
+	background: mediumorchid;
+	position: relative;
+	top: -3151px;
+	left: 30.5px;	
+}
+
+.sbeye1-5{
+	height: 2px;
+	width: 2px;
+	border-radius: 50%;
+	background: black;
+	position: relative;
+	top: -3153.5px;
+	left: 30px;	
+}
+
+.sbeye2-1{
+	height: 25px;
+	width: 20px;
+	clip-path: polygon(52% 4%, 68% 13%, 76% 34%, 74% 69%, 66% 88%, 50% 97%, 36% 88%, 26% 66%, 26% 33%, 35% 13%);
+	background: black;
+	position: relative;
+	top: -3167px;
+	left: 36px;
+	transform: rotate(90deg) scaleY(0.5) scaleX(0.5);	
+}
+
+.sbeye2-2{
+	height: 25px;
+	width: 20px;
+	clip-path: polygon(52% 4%, 68% 13%, 76% 34%, 74% 69%, 66% 88%, 50% 97%, 36% 88%, 26% 66%, 26% 33%, 35% 13%);
+	background: mediumorchid;
+	position: relative;
+	top: -3192px;
+	left: 36px;
+	transform: rotate(90deg) scaleY(0.4) scaleX(0.4);	
+}
+
+.sbeye2-3{
+	height: 4px;
+	width: 4px;
+	background: black;
+	position: relative;
+	top: -3206px;
+	left: 44px;
+	border-radius: 50%;		
+}
+
+.sbeye2-4{
+	height: 2px;
+	width: 2px;
+	border-radius: 50%;
+	background: mediumorchid;
+	position: relative;
+	top: -3209px;
+	left: 45px;	
+}
+
+.sbeye2-5{
+	height: 2px;
+	width: 2px;
+	border-radius: 50%;
+	background: black;
+	position: relative;
+	top: -3211.5px;
+	left: 44.5px;		
+}
+
+.sbeye3-1{
+	height: 25px;
+	width: 20px;
+	clip-path: polygon(52% 4%, 68% 13%, 76% 34%, 74% 69%, 66% 88%, 50% 97%, 36% 88%, 26% 66%, 26% 33%, 35% 13%);
+	background: black;
+	position: relative;
+	top: -3213px;
+	left: 28px;
+	transform: rotate(90deg) scaleY(0.5) scaleX(0.5);	
+}
+
+.sbeye3-2{
+	height: 25px;
+	width: 20px;
+	clip-path: polygon(52% 4%, 68% 13%, 76% 34%, 74% 69%, 66% 88%, 50% 97%, 36% 88%, 26% 66%, 26% 33%, 35% 13%);
+	background: mediumorchid;
+	position: relative;
+	top: -3238px;
+	left: 28px;
+	transform: rotate(90deg) scaleY(0.4) scaleX(0.4);	
+}
+
+.sbeye3-3{
+	height: 4px;
+	width: 4px;
+	background: black;
+	position: relative;
+	top: -3252px;
+	left: 36px;
+	border-radius: 50%;	
+}
+
+.sbeye3-4{
+	height: 2px;
+	width: 2px;
+	border-radius: 50%;
+	background: mediumorchid;
+	position: relative;
+	top: -3255px;
+	left: 37px;	
+}
+
+.sbeye3-5{
+	height: 2px;
+	width: 2px;
+	border-radius: 50%;
+	background: black;
+	position: relative;
+	top: -3257.5px;
+	left: 36.5px;	
+}
+
+svg {
+  fill: currentColor;
+  height: auto;
+  max-width: 66vmin;
+  transform-origin: center;
+  width: 60%;
+  transform: rotate(40deg) scaleY(0.2) scaleX(0.2);
+  position: relative;
+  top: -3408px;
+  left: -53px;
+}
+
+.ednum{
+	font-size: 9px;
+	color: lavender;
+	position: relative;
+	top: -3523px;
+	left: 34.5px;
+}
+
+.haunterbod{
+	width: 20px;
+	height: 20px;
+	clip-path: polygon(50% 0%, 0% 80%, 100% 100%);
+	background:rebeccapurple;
+	position: relative;
+	top: -3730px;
+	left: 44px;
+	transform: rotate(-190deg) scaleY(1.1) scaleX(-1);	
+	z-index: 4;
+}
+
+.stage2{
+	font-size: 9px;
+	position: relative;
+	top: -3775px;
+	left: 36px;
+	z-index: 4;
+	font-weight:bold;
+}
+
+.hlhand{
+	height: 8px;
+	width: 8px;
+	position: relative;
+	top: -3765px;
+	left: 37px;
+	transform: rotate(45deg);
+	background: rebeccapurple;
+	z-index: 4;
+}
+
+.hrhand{
+	height: 8px;
+	width: 4px;
+	position: relative;
+	top: -3783px;
+	left: 66px;
+	transform: rotate(90deg);
+	z-index: 4;
+	background: rebeccapurple;
+}
+
+.htop-right-spike{
+	width: 7px;
+	height: 7px;
+	clip-path: polygon(50% 0%, 0% 80%, 100% 100%);
+	background:transparent;
+	position: relative;
+	top: -3798px;
+	left: 53px;
+	transform: rotate(1deg) scaleY(1.2) scaleX(1.2);	
+	z-index: 4;
+}
+
+.fighting-1{
+	height: 2px;
+	width: 4px;
+	background: black;
+	position: relative;
+	top: -3522px;
+	left: 153.6px;
+	clip-path: clip-path: polygon(0 59%, 0 45%, 21% 45%, 72% 45%, 100% 45%, 100% 62%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+.fighting-2{
+	height: 2px;
+	width: 4px;
+	background: black;
+	position: relative;
+	top: -3526.5px;
+	left: 153.6px;
+	clip-path: clip-path: polygon(0 59%, 0 45%, 21% 45%, 72% 45%, 100% 45%, 100% 62%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
